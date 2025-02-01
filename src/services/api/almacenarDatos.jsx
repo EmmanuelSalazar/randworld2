@@ -2,7 +2,7 @@ import axios from "axios"
 
 const AlmacenarDatos = async (values) => {
   try {
-    const response = await axios.post("http://localhost/REACT/my-app/src/backend/php/api/almacenarDatos.php", values)
+    const response = await axios.post("http://inforandworld.lovestoblog.com/api/almacenarDatos.php", values)
     if (!response.data.ok) {
       throw new Error("Ha ocurrido un error al almacenar la venta, si el error persiste, contacta al administrador")
     }
