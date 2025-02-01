@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { Table } from 'antd';
-import { ListaContext } from '../contexts/ListaContexto';
+import { ListaContext } from '../contexts/listaContexto';
 
 const ListaVentas = () => {
   const { lista, loading, error, actualizarLista } = useContext(ListaContext);
