@@ -1,4 +1,4 @@
-import { ListaProvider } from './contexts/ListaContexto';
+import { ListaProvider } from './contexts/ListaContexto.jsx';
 import Formulario from './components/form';
 import  ListaVentas  from './components/listaVentas';
 import { Container, Row, Col } from 'react-bootstrap';
