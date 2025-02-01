@@ -7,7 +7,7 @@ const useFetchData = () => {
     const fetchData = useCallback(async () => {
         setLoading(true)
             try {
-                const response = await axios('http://inforandworld.lovestoblog.com/api/mostrarDatos.php')
+                const response = await axios('https://inforandworld.lovestoblog.com/api/mostrarDatos.php')
                 if (!response.data.ok) {
                     return console.error('Ha ocurrido un error, reinicie, si este persiste, contacte al administrador')
                 }
