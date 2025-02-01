@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Input, Button } from 'antd';
 import AlmacenarDatos from '../services/api/almacenarDatos';
-import { ListaContext } from '../contexts/ListaContexto';
+import { ListaContext } from '../contexts/listaContexto';
 
 const Formulario = () => {
   const { actualizarLista } = React.useContext(ListaContext);
